@@ -4,6 +4,6 @@
 (* Alias the sub-libraries *)
 module V6_3_0 = Dolmen_tptp_v6_3_0
 
-(* Include the latest version *)
-include Dolmen_tptp_v6_3_0
+(* Alias for the latest module *)
+module Latest = V6_3_0
 

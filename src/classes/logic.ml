@@ -74,7 +74,7 @@ module Make
     Alt_ergo,   ".ae",    (module Dolmen_ae.Make(L)(I)(T)(S)            : S);
     Dimacs,     ".cnf",   (module Dolmen_dimacs.Make(L)(T)(S)           : S);
     ICNF,       ".icnf",  (module Dolmen_icnf.Make(L)(T)(S)             : S);
-    Smtlib,     ".smt2",  (module Dolmen_smtlib.Make(L)(I)(T)(S)        : S);
+    Smtlib,     ".smt2",  (module Dolmen_smtlib.V2_6.Make(L)(I)(T)(S)   : S);
     Tptp,       ".p",     (module Dolmen_tptp.V6_3_0.Make(L)(I)(T)(S)   : S);
     Zf,         ".zf",    (module Dolmen_zf.Make(L)(I)(T)(S)            : S);
   ]
